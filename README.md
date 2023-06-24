@@ -12,7 +12,7 @@ python -m pip install -r requirements.txt
 
 # Way II (anaconda/miniconda)：
 conda create -n strategy_venv python=3.10
-conda activate gptac_venv
+conda activate strategy_venv
 python -m pip install -r requirements.txt
 ```
 
