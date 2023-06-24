@@ -8,7 +8,7 @@
 
 #### Download and unzip, install dependencies.
 
-### 2. Installation dependencies
+### 2. Install dependencies
 
 #### Way I: Download and install [anaconda](https://www.anaconda.com/download)/[miniconda](https://docs.conda.io/en/main/miniconda.html)(recommended). 
 #### Open the terminal from the unzip folder, and run the following commands in the terminal：
