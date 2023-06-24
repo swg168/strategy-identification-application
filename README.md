@@ -6,7 +6,8 @@
 ![image](https://github.com/swg168/strategy-identification-application/assets/109449633/acd11999-6981-4277-8523-96480a63d6e7)
 ![image](https://github.com/swg168/strategy-identification-application/assets/109449633/6f92f12d-d607-478e-bfb8-35013da56d4c)
 
-#### Unzip after downloading，select the following way to install dependence, open the terminal in the repository folder, 
+#### Download and unzip, install dependence, and open the terminal from the unzip folder
+
 ### Installation dependence
 
 #### Way I: [anaconda](https://www.anaconda.com/download)/[miniconda](https://docs.conda.io/en/main/miniconda.html)(recommended)：
@@ -19,7 +20,6 @@ python -m pip install -r requirements.txt
 ```sh
 python -m pip install -r requirements.txt
 ```
-
 ### Run
 ```sh
 python app_strategy.py
