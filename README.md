@@ -6,17 +6,19 @@
 ![image](https://github.com/swg168/strategy-identification-application/assets/109449633/acd11999-6981-4277-8523-96480a63d6e7)
 ![image](https://github.com/swg168/strategy-identification-application/assets/109449633/6f92f12d-d607-478e-bfb8-35013da56d4c)
 
-#### Download and unzip, install dependencies, and open the terminal from the unzip folder
+#### Download and unzip, install dependencies.
 
 ### Installation dependencies
 
-#### Way I: Download and install [anaconda](https://www.anaconda.com/download)/[miniconda](https://docs.conda.io/en/main/miniconda.html)(recommended), and run the following commands in the terminal：
+#### Way I: Download and install [anaconda](https://www.anaconda.com/download)/[miniconda](https://docs.conda.io/en/main/miniconda.html)(recommended). 
+#### Open the terminal from the unzip folder, and run the following commands in the terminal：
 ```sh
 conda create -n strategy_venv python=3.10
 conda activate strategy_venv
 python -m pip install -r requirements.txt
 ```
-#### Way II: Install python=3.10, and run the following commands in the terminal：
+#### Way II: Install python=3.10.
+#### Open the terminal from the unzip folder, and run the following commands in the terminal：
 ```sh
 python -m pip install -r requirements.txt
 ```
