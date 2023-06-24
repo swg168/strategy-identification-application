@@ -93,7 +93,7 @@ class Resnet(LightningModule):
 model = Resnet()
 picture=[]
 predict=[]
-check_path = f"D:\Documents\Jupyter\pytorch\ResNet-epoch=84-val_acc=0.91.ckpt"
+check_path = f".\model_file\ResNet-epoch=84-val_acc=0.91.ckpt"
 
 
 class ImageLoader(QThread):
