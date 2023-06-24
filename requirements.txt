@@ -3,3 +3,4 @@ lightning
 torchvision
 pandas
 pyqt6
+pillow
