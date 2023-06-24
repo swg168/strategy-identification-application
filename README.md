@@ -16,7 +16,7 @@ conda create -n strategy_venv python=3.10
 conda activate strategy_venv
 python -m pip install -r requirements.txt
 ```
-#### Way II: Install python=3.10
+#### Way II: Install python=3.10, and run the following commands in the terminal：
 ```sh
 python -m pip install -r requirements.txt
 ```
