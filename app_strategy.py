@@ -105,7 +105,7 @@ class ImageLoader(QThread):
     def __init__(self, folder_path,check_path):
         super().__init__()
         self.folder_path = folder_path
-        self.model = model.load_from_checkpoint(check_path,map_location=torch.device('cpu'))
+        self.model = model.load_from_checkpoint(check_path,map_location=torch.device('cpu')) # or gpu
         self.transform = transforms.Compose([transforms.Resize([128,128]),
                                             transforms.RandomHorizontalFlip(),
                                             transforms.ToTensor(),
