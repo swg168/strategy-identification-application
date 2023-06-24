@@ -93,6 +93,8 @@ class Resnet(LightningModule):
 model = Resnet()
 picture=[]
 predict=[]
+
+# Application of model files that are initialized loaded
 check_path = f".\model_file\ResNet-epoch=84-val_acc=0.91.ckpt"
 
 
