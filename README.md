@@ -10,9 +10,9 @@ cd strategy-identification-application
 python -m pip install -r requirements.txt   
 
 # Way II (anaconda/miniconda)：
-## 1. conda create -n strategy_venv python=3.10
-## 2. conda activate gptac_venv
-## 3. python -m pip install -r requirements.txt
+# 1. conda create -n strategy_venv python=3.10
+# 2. conda activate gptac_venv
+# 3. python -m pip install -r requirements.txt
 ```
 
 ### 3. Run
