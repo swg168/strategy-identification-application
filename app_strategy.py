@@ -105,7 +105,7 @@ class ImageLoader(QThread):
     def __init__(self, folder_path,check_path):
         super().__init__()
         self.folder_path = folder_path
-        self.model = model.load_from_checkpoint(check_path)
+        self.model = model.load_from_checkpoint(check_path,map_location=torch.device('cpu'))
         self.transform = transforms.Compose([transforms.Resize([128,128]),
                                             transforms.RandomHorizontalFlip(),
                                             transforms.ToTensor(),
@@ -135,7 +135,8 @@ class ImageLoader(QThread):
 
             image = self.transform(image)
             image = image.view(1, 3, 128, 128)
-            image=image.to('cuda')
+            # if GPU
+            # image=image.to('cuda')
             # load the model
             model = self.model
             # model.eval()
