@@ -4,6 +4,7 @@
 git clone https://github.com/swg168/strategy-identification-application.git
 cd strategy-identification-application
 ```
+Open the terminal in the repository folder, select the following way to install dependence
 ### 2. Installation dependence
 ```sh
 # Way I
