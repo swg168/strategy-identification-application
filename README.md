@@ -1,11 +1,11 @@
 # strategy-identification-application
-### 1. Download
+### Download
 ```sh
 git clone https://github.com/swg168/strategy-identification-application.git
 cd strategy-identification-application
 ```
 Open the terminal in the repository folder, select the following way to install dependence
-### 2. Installation dependence
+### Installation dependence
 ```sh
 # Way I
 python -m pip install -r requirements.txt   
@@ -16,7 +16,7 @@ conda activate gptac_venv
 python -m pip install -r requirements.txt
 ```
 
-### 3. Run
+### Run
 ```sh
 python app_strategy.py
 ```
