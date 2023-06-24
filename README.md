@@ -1,4 +1,5 @@
 # strategy-identification-application
+## Win 10/11
 ### Download
 ```sh
 git clone https://github.com/swg168/strategy-identification-application.git
