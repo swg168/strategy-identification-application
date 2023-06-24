@@ -19,4 +19,4 @@ python -m pip install -r requirements.txt
 ```sh
 python app_strategy.py
 ```
-After running the application, click the "select" button, select a folder containing the eye movement, such as the test_image in this repository
+After running the application, click the "Select" button, select a folder containing the eye movement images, such as the test_image folder in this repository
