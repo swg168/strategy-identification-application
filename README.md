@@ -10,7 +10,7 @@
 
 ### Installation dependencies
 
-#### Way I: Download and install [anaconda](https://www.anaconda.com/download)/[miniconda](https://docs.conda.io/en/main/miniconda.html)(recommended), run the following commands in the terminal：
+#### Way I: Download and install [anaconda](https://www.anaconda.com/download)/[miniconda](https://docs.conda.io/en/main/miniconda.html)(recommended), and run the following commands in the terminal：
 ```sh
 conda create -n strategy_venv python=3.10
 conda activate strategy_venv
