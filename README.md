@@ -6,9 +6,9 @@
 ![image](https://github.com/swg168/strategy-identification-application/assets/109449633/acd11999-6981-4277-8523-96480a63d6e7)
 ![image](https://github.com/swg168/strategy-identification-application/assets/109449633/6f92f12d-d607-478e-bfb8-35013da56d4c)
 
-#### Download and unzip, install dependence, and open the terminal from the unzip folder
+#### Download and unzip, install dependencies, and open the terminal from the unzip folder
 
-### Installation dependence
+### Installation dependencies
 
 #### Way I: [anaconda](https://www.anaconda.com/download)/[miniconda](https://docs.conda.io/en/main/miniconda.html)(recommended)：
 ```sh
