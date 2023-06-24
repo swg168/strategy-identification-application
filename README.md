@@ -3,25 +3,18 @@
 > **Warning**
 > The application has not been tried under MacOS and Linux, and it is not guaranteed to run successfully.
 ### Download
-```sh
-if you had git bash:
-git clone https://github.com/swg168/strategy-identification-application.git
-cd strategy-identification-application
-else you can
-![image](https://github.com/swg168/strategy-identification-application/assets/109449633/72f018ba-7edc-4510-bb0c-34a8454b7b95)
-![image](https://github.com/swg168/strategy-identification-application/assets/109449633/611b8c14-f690-40b4-b61e-cd41efdfbec3)
-Unzip after downloading，
-Open the terminal in the repository folder, select the following way to install dependence
-```
+![image](https://github.com/swg168/strategy-identification-application/assets/109449633/acd11999-6981-4277-8523-96480a63d6e7)
+![image](https://github.com/swg168/strategy-identification-application/assets/109449633/6f92f12d-d607-478e-bfb8-35013da56d4c)
 
+#### Unzip after downloading，open the terminal in the repository folder, select the following way to install dependence
 ### Installation dependence
 ```sh
-# Way I: Install python=3.10
-python -m pip install -r requirements.txt   
-
-# Way II: anaconda/miniconda(recommended)：
+# Way I: anaconda/miniconda(recommended)：
 conda create -n strategy_venv python=3.10
 conda activate strategy_venv
+python -m pip install -r requirements.txt
+
+# Way II: Install python=3.10
 python -m pip install -r requirements.txt
 ```
 
